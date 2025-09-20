@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospitality & Tourism News Hub</title>
+  <meta name="description" content="Stay updated with the latest trends, articles and insights in the hotel and tourism industry. Multilingual support (English & Farsi), responsive design, chat bot and future hotel booking capabilities.">
+  <meta name="keywords" content="hotel, hospitality, tourism, news, trends, articles, industry, booking">
+  <!-- Open Graph meta tags for social sharing -->
+  <meta property="og:title" content="Hospitality & Tourism News Hub">
+  <meta property="og:description" content="Discover the latest articles, trends and insights in the hotel and tourism industry.">
+  <meta property="og:image" content="images/hero.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Hospitality & Tourism News Hub",
+    "url": "http://example.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "http://example.com/news.html?query={search_term}",
+      "query-input": "required name=search_term"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">HotelNews</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.html">Latest Articles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index-fa.html">فارسی</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero section -->
+  <header class="hero-section text-white d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Stay Ahead in Hospitality & Tourism</h1>
+      <p class="lead">Explore daily updates on hotel and tourism news, trends and insights, with multilingual support.</p>
+      <a href="news.html" class="btn btn-primary btn-lg me-2">Browse Articles</a>
+      <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+    </div>
+  </header>
+  <!-- Features section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="icon-feature mb-3">
+            <span class="display-5 text-primary"><i class="bi bi-newspaper"></i></span>
+          </div>
+          <h3 class="h5">Fresh Content Daily</h3>
+          <p>Our automated system pulls the latest hotel and tourism news from trusted sources every day, keeping you informed.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="icon-feature mb-3">
+            <span class="display-5 text-primary"><i class="bi bi-chat-dots"></i></span>
+          </div>
+          <h3 class="h5">Interactive Chat Bot</h3>
+          <p>Engage with our multilingual chat bot to get quick answers or assistance while browsing.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="icon-feature mb-3">
+            <span class="display-5 text-primary"><i class="bi bi-device-vertical"></i></span>
+          </div>
+          <h3 class="h5">Responsive Design</h3>
+          <p>The site looks great on any device. Whether you’re on a phone, tablet or desktop, enjoy a seamless experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="h4 text-center mb-4">About Our Platform</h2>
+      <p>HotelNews brings you curated articles, trends and insights from across the hospitality and tourism industry. Powered by automated feeds and a dedicated editorial workflow, our mission is to ensure you never miss a story.</p>
+      <p>Coming soon: a robust hotel reservation system that lets you book your next stay directly through our platform.</p>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span>&copy; 2025 HotelNews. All rights reserved.</span>
+      <span>
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+      </span>
+    </div>
+  </footer>
+  <!-- Crisp Chat Placeholder -->
+  <script type="text/javascript">
+    // Crisp Chat Integration (replace 'your-website-id' with your Crisp website ID)
+    window.$crisp=[];window.CRISP_WEBSITE_ID="your-website-id";
+    (function(){
+      var d=document,s=d.createElement("script");
+      s.src="https://client.crisp.chat/l.js";
+      s.async=1;
+      d.getElementsByTagName("head")[0].appendChild(s);
+    })();
+  </script>
+  <!-- Copy protection: disable right click and text selection -->
+  <script type="text/javascript">
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onselectstart = () => { event.preventDefault(); };
+  </script>
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

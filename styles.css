@@ -1,0 +1,52 @@
+/* Custom styles for the hospitality news website */
+
+/* Hero section styling */
+.hero-section {
+  background-image: url('images/hero.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section::before {
+  /* Dark overlay to improve contrast for text */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Icon sizing for features */
+.icon-feature i {
+  font-size: 3rem;
+}
+
+/* Ensure paragraphs in cards don't overflow */
+.card-text {
+  overflow: hidden;
+}
+
+/* Support right‑to‑left text alignment when needed */
+[dir="rtl"] .hero-section .container {
+  text-align: center;
+}
+
+/* Adjust spacing for Farsi buttons (since margin direction changes) */
+[dir="rtl"] .btn.ms-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
